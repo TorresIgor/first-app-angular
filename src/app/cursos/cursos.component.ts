@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CursosComponent implements OnInit {
 
+  nome="";
+  idade=0;
+  curso:string[] = {"C+","Java","SQL"};
   constructor() { }
+
+  alteraNome(vl) {
+    this.nome = vl;
+  }
 
   ngOnInit(): void {
   }
