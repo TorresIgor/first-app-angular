@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CursosComponent } from './cursos/cursos.component';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { DiretivasComponent } from './diretivas/diretivas.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    CursosComponent
+    CursosComponent,
+    DiretivasComponent
   ],
   imports: [
     BrowserModule,

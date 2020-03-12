@@ -1,0 +1,12 @@
+<div>
+    Nome<input type="text" [(ngModel)]="nome">
+    <br>
+    <input 
+        type="button"value = "Esconder/mostrar"
+        (click)= "mostrar()"
+    >
+    <br>
+    <p *ngIf="visivel">
+        Meu nome é: {{nome}}
+    </p>
+</div>

@@ -9,8 +9,10 @@ export class CursosComponent implements OnInit {
 
   nome="";
   idade=0;
-  curso:string[] = {"C+","Java","SQL"};
-  constructor() { }
+  curso:string[] = ["C+","Java","SQL"];
+  constructor() {
+    
+   }
 
   alteraNome(vl) {
     this.nome = vl;
